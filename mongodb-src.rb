@@ -6,7 +6,6 @@ class MongodbSrc < Formula
   sha1 'bdf414c3a71386f1bf7b6df8da72400abe434ebe'
   version '2.2.0'
 
-  depends_on 'scons' => :build
   depends_on 'boost'
   depends_on 'pcre'
   depends_on 'spidermonkey'
